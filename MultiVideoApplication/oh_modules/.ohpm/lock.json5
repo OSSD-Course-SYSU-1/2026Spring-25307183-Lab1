@@ -1,0 +1,127 @@
+{
+  "lockVersion": "1.0",
+  "settings": {
+    "resolveConflict": true,
+    "resolveConflictStrict": false,
+    "installAll": true
+  },
+  "overrides": {},
+  "overrideDependencyMap": {},
+  "modules": {
+    ".": {
+      "name": "",
+      "dependencies": {},
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "commons/base": {
+      "name": "base",
+      "dependencies": {},
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/home": {
+      "name": "home",
+      "dependencies": {
+        "search": {
+          "specifier": "file:features/search",
+          "version": "file:features/search"
+        },
+        "base": {
+          "specifier": "file:commons/base",
+          "version": "file:commons/base"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/search": {
+      "name": "search",
+      "dependencies": {
+        "base": {
+          "specifier": "file:commons/base",
+          "version": "file:commons/base"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/videoDetail": {
+      "name": "videoDetail",
+      "dependencies": {
+        "base": {
+          "specifier": "file:commons/base",
+          "version": "file:commons/base"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "products/phone": {
+      "name": "phone",
+      "dependencies": {
+        "base": {
+          "specifier": "file:commons/base",
+          "version": "file:commons/base"
+        },
+        "videoDetail": {
+          "specifier": "file:features/videoDetail",
+          "version": "file:features/videoDetail"
+        },
+        "home": {
+          "specifier": "file:features/home",
+          "version": "file:features/home"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    }
+  },
+  "packages": {
+    "base@file:commons/base": {
+      "storePath": "commons/base",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "search@file:features/search": {
+      "storePath": "features/search",
+      "dependencies": {
+        "base": "commons/base"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "home@file:features/home": {
+      "storePath": "features/home",
+      "dependencies": {
+        "search": "features/search",
+        "base": "commons/base"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "videoDetail@file:features/videoDetail": {
+      "storePath": "features/videoDetail",
+      "dependencies": {
+        "base": "commons/base"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    }
+  }
+}
