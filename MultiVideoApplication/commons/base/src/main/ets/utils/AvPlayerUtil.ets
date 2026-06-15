@@ -260,4 +260,31 @@ export class AvPlayerUtil {
     }
     return time.toString();
   }
+
+  // 设置播放倍速
+  async setSpeed(speed: number): Promise<void> {
+    if (this.avPlayer && this.avPlayer.state === CommonConstants.AV_PLAYER_PLAYING_STATE) {
+      try {
+        await this.avPlayer.setSpeed(speed);
+        Logger.info(`Set playback speed to ${speed}`);
+      } catch (error) {
+        let err = error as BusinessError;
+        hilog.error(0x00, 'AvPlayerUtil', `setSpeed failed, code = ${err.code}, message = ${err.message}`);
+      }
+    } else if (this.avPlayer && this.avPlayer.state === CommonConstants.AV_PLAYER_PAUSED_STATE) {
+      // 如果是暂停状态，先设置倍速再播放
+      try {
+        await this.avPlayer.setSpeed(speed);
+        Logger.info(`Set playback speed to ${speed} while paused`);
+      } catch (error) {
+        let err = error as BusinessError;
+        hilog.error(0x00, 'AvPlayerUtil', `setSpeed failed, code = ${err.code}, message = ${err.message}`);
+      }
+    }
+  }
+
+  // 获取当前播放器状态
+  getPlayerState(): string {
+    return this.avPlayer?.state || '';
+  }
 }
