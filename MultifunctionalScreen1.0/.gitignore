@@ -1,0 +1,19 @@
+/node_modules
+/oh_modules
+/local.properties
+/.idea
+**/build
+/.hvigor
+.cxx
+/.clangd
+/.clang-format
+/.clang-tidy
+**/.test
+/.appanalyzer
+.DS_Store
+**/**/*package-lock.json*
+
+# 新增：屏蔽所有编译产出大文件类型
+*.hap
+*.bin
+*.out

@@ -1,0 +1,91 @@
+{
+  "modulePathMap": {
+    "entry": "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry"
+  },
+  "compileMode": "esmodule",
+  "projectRootPath": "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted",
+  "nodeModulesPath": "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\build\\default\\intermediates\\loader_out\\default\\node_modules",
+  "byteCodeHarInfo": {},
+  "declarationEntry": [],
+  "moduleName": "entry",
+  "hspNameOhmMap": {},
+  "harNameOhmMap": {},
+  "packageManagerType": "ohpm",
+  "compileEntry": [
+    "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\src\\main\\ets\\pages\\HandheldBarrage.ets",
+    "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\src\\main\\ets\\pages\\ScrollingImage.ets",
+    "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\src\\main\\ets\\pages\\CountdownBarrage.ets",
+    "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\src\\main\\ets\\pages\\ElectronicClock.ets",
+    "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\src\\main\\ets\\pages\\OnlineDice.ets",
+    "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\src\\main\\ets\\pages\\Led.ets",
+    "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\src\\main\\ets\\pages\\ClockFullScreen.ets",
+    "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\src\\main\\ets\\pages\\CountdownFullScreen.ets",
+    "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\src\\main\\ets\\pages\\HandheldFullScreen.ets"
+  ],
+  "otherCompileFiles": [],
+  "dynamicImportLibInfo": {},
+  "routerMap": [
+    {
+      "ohmurl": "@normalized:N&&&entry/src/main/ets/pages/HandheldBarrage&",
+      "name": "HandheldBarrage",
+      "pageSourceFile": "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\src\\main\\ets\\pages\\HandheldBarrage.ets",
+      "buildFunction": "HandheldBarrageBuilder"
+    },
+    {
+      "ohmurl": "@normalized:N&&&entry/src/main/ets/pages/ScrollingImage&",
+      "name": "ScrollingImage",
+      "pageSourceFile": "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\src\\main\\ets\\pages\\ScrollingImage.ets",
+      "buildFunction": "ScrollingImageBuilder"
+    },
+    {
+      "ohmurl": "@normalized:N&&&entry/src/main/ets/pages/CountdownBarrage&",
+      "name": "CountdownBarrage",
+      "pageSourceFile": "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\src\\main\\ets\\pages\\CountdownBarrage.ets",
+      "buildFunction": "CountdownBarrageBuilder"
+    },
+    {
+      "ohmurl": "@normalized:N&&&entry/src/main/ets/pages/ElectronicClock&",
+      "name": "ElectronicClock",
+      "pageSourceFile": "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\src\\main\\ets\\pages\\ElectronicClock.ets",
+      "buildFunction": "ElectronicClockBuilder"
+    },
+    {
+      "ohmurl": "@normalized:N&&&entry/src/main/ets/pages/OnlineDice&",
+      "name": "OnlineDice",
+      "pageSourceFile": "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\src\\main\\ets\\pages\\OnlineDice.ets",
+      "buildFunction": "OnlineDiceBuilder"
+    },
+    {
+      "ohmurl": "@normalized:N&&&entry/src/main/ets/pages/Led&",
+      "name": "Led",
+      "pageSourceFile": "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\src\\main\\ets\\pages\\Led.ets",
+      "buildFunction": "LedBuilder"
+    },
+    {
+      "ohmurl": "@normalized:N&&&entry/src/main/ets/pages/ClockFullScreen&",
+      "name": "ClockFullScreen",
+      "pageSourceFile": "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\src\\main\\ets\\pages\\ClockFullScreen.ets",
+      "buildFunction": "ClockFullScreenBuilder"
+    },
+    {
+      "ohmurl": "@normalized:N&&&entry/src/main/ets/pages/CountdownFullScreen&",
+      "name": "CountdownFullScreen",
+      "pageSourceFile": "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\src\\main\\ets\\pages\\CountdownFullScreen.ets",
+      "buildFunction": "CountdownFullScreenBuilder"
+    },
+    {
+      "ohmurl": "@normalized:N&&&entry/src/main/ets/pages/HandheldFullScreen&",
+      "name": "HandheldFullScreen",
+      "pageSourceFile": "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\src\\main\\ets\\pages\\HandheldFullScreen.ets",
+      "buildFunction": "HandheldFullScreenBuilder"
+    }
+  ],
+  "hspResourcesMap": {},
+  "updateVersionInfo": {},
+  "customizedHar": false,
+  "anBuildOutPut": "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\build\\default\\intermediates\\loader_out\\default\\an\\arm64-v8a",
+  "anBuildMode": "type",
+  "patchConfig": {
+    "changedFileList": "E:\\DevEcoHarmony\\MultifunctionalScreen\\4_AI\\MultifunctionalScreenCompleted\\entry\\build\\default\\intermediates\\patch\\default\\changedFileList.json"
+  }
+}
