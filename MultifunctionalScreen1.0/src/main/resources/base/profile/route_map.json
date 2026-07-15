@@ -1,0 +1,49 @@
+{
+  "routerMap": [
+    {
+      "name": "HandheldBarrage",
+      "pageSourceFile": "src/main/ets/pages/HandheldBarrage.ets",
+      "buildFunction": "HandheldBarrageBuilder"
+    },
+    {
+      "name": "ScrollingImage",
+      "pageSourceFile": "src/main/ets/pages/ScrollingImage.ets",
+      "buildFunction": "ScrollingImageBuilder"
+    },
+    {
+      "name": "CountdownBarrage",
+      "pageSourceFile": "src/main/ets/pages/CountdownBarrage.ets",
+      "buildFunction": "CountdownBarrageBuilder"
+    },
+    {
+      "name": "ElectronicClock",
+      "pageSourceFile": "src/main/ets/pages/ElectronicClock.ets",
+      "buildFunction": "ElectronicClockBuilder"
+    },
+    {
+      "name": "OnlineDice",
+      "pageSourceFile": "src/main/ets/pages/OnlineDice.ets",
+      "buildFunction": "OnlineDiceBuilder"
+    },
+    {
+      "name": "Led",
+      "pageSourceFile": "src/main/ets/pages/Led.ets",
+      "buildFunction": "LedBuilder"
+    },
+    {
+      "name": "ClockFullScreen",
+      "pageSourceFile": "src/main/ets/pages/ClockFullScreen.ets",
+      "buildFunction": "ClockFullScreenBuilder"
+    },
+    {
+      "name": "CountdownFullScreen",
+      "pageSourceFile": "src/main/ets/pages/CountdownFullScreen.ets",
+      "buildFunction": "CountdownFullScreenBuilder"
+    },
+    {
+      "name": "HandheldFullScreen",
+      "pageSourceFile": "src/main/ets/pages/HandheldFullScreen.ets",
+      "buildFunction": "HandheldFullScreenBuilder"
+    }
+  ]
+}
